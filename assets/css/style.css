@@ -5,6 +5,13 @@
   font-family: Poppins, sans-serif;
 }
 
+.burger {
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+}
+
 .nav_header {
   display: none;
   justify-content: space-between;
@@ -202,5 +209,9 @@ main {
     margin: 0;
     max-width: 300px;
     min-height: 100px;
+  }
+
+  .burger {
+    display: none;
   }
 }
